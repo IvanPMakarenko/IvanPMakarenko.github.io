@@ -1,141 +1,69 @@
 <!DOCTYPE html>
 <html>
 <body>
-<header>
-  <h1>
-    <a href="https://netology-university.bitbucket.org/html-base/homework/1.2-lists/">Списки и таблицы</a>
-  </h1>
-</header>
-<section>
-  <h2>5 самых известных людей мира</h2>
-  <ul>
-    <li>Мартин Лютер Кинг</li>
-    <li>Роберт Оппенгеймер</li>
-    <li>Альфред Хичкок</li>
-    <li>Чарли Чаплин</li>
-    <li>Коко Шанель</li>
-  </ul>
- 
-</section>
+<p>Просто текст</p>
+<ul>
+  <li>Пункт один</li>
+  <li>Пункт два</li>
+  <li>Пункт три</li>
+</ul>
 
-<section>
-  <h2>ТОП-5 списка Forbes</h2>
-  <ol>
-    <li>Билл Гейтс ($75 млрд)</li>
-    <li>Амансио Ортега ($67 млрд)</li>
-    <li>Уоррен Баффет ($60,8 млрд)</li>
-    <li> Карлос Слим Элу ($50 млрд)</li>
-    <li>Джефф Безос ($45,2 млрд)</li>
-    </ol>
+<ol>
+  <li>Номер один</li>
+  <li>Номер два</li>
+</ol>
+<p>Абсолютно левый текст внутри списка</p>
+ <ol start="3"> 
+   <li>Номер три</li>
+   <li>место для вложенного списка:
+   <ol>
+  <li>Номер один</li>
+  <li>Номер два</li>
+</li></ol>
+</ol>
 
-</section>
+<dl>
+<dt>Термин</dt>
+<dd>Его описание</dd>
+  <dd>Его второе описание</dd>
+  <dt>Второй термин</dt>
+<dd>Второе описание</dd>
+</dl>
 
-<section>
-  <h2>Заказ аниматоров</h2>
-  <table>
-    <thead>
-      <tr>
-        <td>Персонаж</td>
-        <td>Время выступления</td>
-        <td>Цена</td>
-      </tr>
-    </thead>
+<table>
+  <thead><tr>
+  <td>Заголовок 1</td>
+    <td>Заголовок 2</td>
+    <td>Заголовок 3</td>
+  </tr></thead>
   <tbody>
-         <tr>
-        <td>Белоснежка</td>
-        <td>12:00</td>
-        <td>1 500 руб.</td>
+  <tr>
+  <td>1</td>
+    <td colspan=2>2+3</td>
       </tr>
-         <tr>
-        <td>Лунтик</td>
-        <td>12:30</td>
-        <td>4 800 руб.</td>
-      </tr>
-         <tr>
-        <td>Маша и Медведь</td>
-        <td>13:15</td>
-        <td>8 400 руб.</td>
-      </tr>
-         <tr>
-        <td>Бэтмен</td>
-        <td>13:45</td>
-        <td>5 200 руб.</td>
-      </tr>
-         <tr>
-        <td>Джек Воробей</td>
-        <td>14:30</td>
-        <td>3 300 руб.</td>
-      </tr>
-         <tr>
-        <td>Аватар</td>
-        <td>14:50</td>
-        <td>4 000 руб.</td>
-      </tr>
-             <tr>
-        <td>Энгри Бердс</td>
-        <td>15:20</td>
-        <td>2 150 руб.</td>
-      </tr>
+  <tr>
+  <td>4</td>
+      <td rowspan=2>5 и 8</td>
+      <td>6</td>
+  </tr>
+    <tr>
+  <td>7</td>
+        
+        <td>9</td>
+  </tr>
     </tbody>
-    <tfoot>
-             <tr>
-        <td colspan=2>ИТОГО</td>
+  <tfoot>
+  <tr>
+  <td>Итог 1</td>
+    <td>Итог 2</td>
+    <td>Итог 3</td>
+  </tr>
+  </tfoor>
+</table>
 
-        <td>29 350 р.</td>
-      </tr>
-      </tfoot>
-
-  </table>
-</section>
-
-<section>
-  <h2>Звезды мировой эстрады</h2>
-
-  <table>
-    <thead>
-      <tr>
-        <td colspan="2">ФИО</td>
-        <td rowspan="2">Возраст</td>
-        <td rowspan="2">Знак зодиака</td>
-      </tr>
-      
-      <tr>
-        <td>Имя</td>
-        <td>Фамилия</td>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>Майкл</td>
-        <td>Джексон</td>
-        <td>51</td>
-        <td>Дева</td>
-      </tr>
-      <tr>
-        <td>Адриано</td>
-        <td>Челентано</td>
-        <td>78</td>
-        <td>Козерог</td>
-      </tr>
-      <tr>
-        <td>Шарль</td>
-        <td>Азнавур</td>
-        <td>94</td>
-        <td rowspan="2">Близнецы</td>
-      </tr>
-      <tr>
-        <td>Пол</td>
-        <td>Маккартни</td>
-        <td>74</td>
-      </tr>
-      <tr>
-        <td colspan="2">Мадонна</td>
-
-        <td>58</td>
-        <td>Лев</td>
-      </tr>
-    </tbody>
-  </table>
-</section>
+<figure>
+<img src='http://i2.kym-cdn.com/photos/images/facebook/000/191/809/me_gusta_mucho_by_megustamuchoplz-d416uqk.png' alt='Победитель!'>
+  <figcaption>MeGusta</figcaption>
+</figure>
 </body>
 </html>
